@@ -45,11 +45,9 @@ A documentação interativa (Swagger) pode ser acessada em: `http://localhost:80
    git clone [https://github.com/gsnog/inventario-empresa.git](https://github.com/gsnog/inventario-empresa.git)
    
 2. Acesse a pasta do projeto e suba o banco de dados via Docker:
-
-```bash
-docker-compose up -d
+   ```bash
+   docker-compose up -d
 
 3. Execute a aplicação Spring Boot:
-
-```bash
-./mvnw spring-boot:run
+   ```bash
+   ./mvnw spring-boot:run
