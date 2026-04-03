@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    container_name: postgres-inventario
+    environment:
+      POSTGRES_DB: inventariodb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 123
+    ports:
+      - "5434:5432"
